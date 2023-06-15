@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [{provide: LocationStrategy,useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
