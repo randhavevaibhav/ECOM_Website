@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { SellerService } from '../services/seller.service';
 import { Router } from '@angular/router';
+import { signup } from '../datatype';
 @Component({
   selector: 'app-seller-auth',
   templateUrl: './seller-auth.component.html',
@@ -11,7 +12,7 @@ export class SellerAuthComponent {
   {
       
   }
-  signUp(data:object):void
+  signUp(data:signup):void
   {
     
     this.seller.userSignUp(data).subscribe((result)=>{

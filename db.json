@@ -23,6 +23,18 @@
       "password": "abc@123",
       "email": "rohit@wegmail.com",
       "id": 4
+    },
+    {
+      "name": "jakup",
+      "password": "abc@123",
+      "email": "jackup@12ghgmail.com",
+      "id": 5
+    },
+    {
+      "name": "rayan",
+      "password": "abc@123",
+      "email": "rayangh@reddit.com",
+      "id": 6
     }
   ]
 }
