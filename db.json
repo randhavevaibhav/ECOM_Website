@@ -11,6 +11,18 @@
       "password": "abc@123",
       "email": "tony@3y.kl",
       "id": 2
+    },
+    {
+      "name": "uio",
+      "password": "iohh",
+      "email": "uio@3y.klioh",
+      "id": 3
+    },
+    {
+      "name": "rohit",
+      "password": "abc@123",
+      "email": "rohit@wegmail.com",
+      "id": 4
     }
   ]
 }
