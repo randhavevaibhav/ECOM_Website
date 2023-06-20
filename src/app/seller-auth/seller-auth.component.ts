@@ -8,10 +8,17 @@ import { signup } from '../datatype';
   styleUrls: ['./seller-auth.component.css']
 })
 export class SellerAuthComponent {
+
+
   constructor(private seller:SellerService, private router :Router)
   {
       
   }
+
+  ngOnInit():void
+{
+    this.seller.reloadSeller();
+}
   signUp(data:signup):void
   {
     
